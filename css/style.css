@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:900');
+
+html, body {
+    margin: 0px;
+}
+
+.left{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    min-height: 100vh;
+    float: left;
+    justify-content: flex-end;
+}
+.right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    min-height: 100vh; 
+    float: left;
+    justify-content: flex-start;
+}
+.full{
+    width: 100%;
+    height 100vh;
+    min-height: 100vh;
+}
+.split{
+    width: 100%;
+    height 100vh;
+    min-height: 100vh;
+}
+
+.landing{
+    font-family: "Catamaran";
+    font-size: 120pt;
+}
+
+.clear{
+    clear: both;
+}
+
+.text{
+/*    position: ;*/
+    align-items: center;
+}
+
+.left .text{
+    text-align: right;
+}
+
+.right .text{
+    float: left;
+}
+
+.landing .right{
+    background-color: #00b0c7;
+    color: white;
+}
+
+.landing .left{
+    background-color: white;
+    color: #00b0c7;
+}
+
+.section2{
+    font-family: "Catamaran";
+    font-size: 120pt;
+}
+
+.section2 .right{
+    background-color: white;
+    color: #e00f39;
+}
+
+.section2 .left{
+    background-color: #e00f39;
+    color: white;
+}
+/*
+.fleft{
+    width: 50%;
+    float: left;
+    min-height: 100vh;
+}
+
+.fright{
+    width: 50%;
+    float: left;
+    min-height: 100vh;
+}
+
+.fullscreen{
+    width: 100%;
+    height 100vh;
+    min-height: 100vh;
+}
+
+.landing{
+    font-family: "Catamaran";
+    font-size: 120pt;
+}
+.lleft{
+    background-color: black;
+    color: white;
+}
+
+.lright {
+    background-color: white;
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+.heading-left {
+    float: right;
+}
+
+.heading-right{
+    float: left;
+}
+
+.section-2{
+    font-family: "Catamaran";
+    font-size: 120pt;
+}
+
+.sleft{
+    background-color: white;
+    color: black;
+}
+
+.s2right{
+    background-color: black;
+    color: white;
+}
+*/
