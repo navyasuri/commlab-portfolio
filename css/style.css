@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:900');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 html, body {
     margin: 0px;
@@ -137,3 +138,46 @@ html, body {
     color: white;
 }
 */
+
+.info-top {
+    font-family: 'Catamaran';
+    font-size: 60pt;
+    text-align: center;
+    
+    min-width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: azure
+}
+
+.info-hr {
+    align-self: center;
+    border: solid 1px grey;
+    width: 50%
+}
+
+.profile-img img{
+    border-radius: 50%;
+}
+
+.profile-img {
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.profile {
+    min-width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-content {
+    margin-right: 5%;
+    font-family: 'PT Sans';
+    font-size: 30pt;
+}
