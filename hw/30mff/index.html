@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        30MFF: ?
+    </title>
+
+    <!--  Including various stylesheets, fonts, and js libraries here  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/smartscroll.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- A main section wrapper div holds many 'section' divs which contain all the content. This is  requirement by the library for scrolljacking/fullpage scrolling  -->
+    <div class="section-wrapper">
+
+
+        <div class="section">
+            <!-- The center class makes sure all content is centered horizontally and vertically -->
+            <div class="center main-heading">
+                <div class="big-question">?</div>
+                <div class="sub-heading">A short film</div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="center section-1">This page won't get any less confusing - just like our film!
+                Yet, you must keep scrolling. </div>
+        </div>
+
+
+        <div class="section" data-hash="cast">
+            <div class="center">
+                <div class="sub-heading">The Crew</div>
+                <!-- The card wrapper wraps around the card elements which are all float-left. The various subclasses are necessary for the transitions to work upon hover  -->
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="coin">
+                            <div class="front">
+                                <div class="coin-front">
+                                    <span class="question">?</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <img src="img/1.jpg">
+                            </div>
+                        </div>
+                        <!-- I used a little hacky way to make the content visible on hover with a little jquery - the text color changes from black to white upon hover. The original black bg makes the text invisible otherwise -->
+                        <div class="member">Gabi
+                            <div class="details">Gabi hails from Trinidad and Tobago and is a Sophomore. She is currently exploring her options for a major!</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="coin">
+                            <div class="front">
+                                <div class="coin-front">
+                                    <span class="question">?</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <img src="img/2.jpg">
+                            </div>
+                        </div>
+                        <div class="member">Nav
+                            <div class="details">
+                                Nav is a Sophomore from India interested in Computer Science and Interactive Media.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="coin">
+                            <div class="front">
+                                <div class="coin-front">
+                                    <span class="question">?</span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <img src="img/3.jpg">
+                            </div>
+                        </div>
+                        <div class="member">Mai
+                            <div class="details">
+                                Mai is a Junior, majoring in Computer Science and Interactive Media and is from the UAE.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="center">
+                <div class="fonter" style="font-size:50px">The Film!</div>
+                <!-- The iframe code hasn't been altered, except for the width and height properties -->
+                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/m7bo8D56uYw" frameborder="0" allow="autoplay; encrypted-media" style="margin: 20px" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <!-- The reviews section uses an awesome font-icon pack called fontawesome to get the stars -->
+        <div class="section">
+            <div class="center">
+                <div class="fonter" style="font-size: 50px; margin-bottom: 50px;">
+                    Reviews and Critique
+                </div>
+                <div class="review">
+                    <div class="main">
+                        I was moved by the actors' performances. I don't think I've had this experience since the last cat video I watched.
+                    </div>
+                    <div class="foot">
+                        <!-- &nbsp is no break space, html syntax to add a space -->
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa  fa-star-half-alt"></i> <span>&nbsp;&nbsp;&nbsp;Amnot Riel</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="main">
+                        Best Film of the Century.
+                    </div>
+                    <div class="foot">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa  fa-star"></i> <span>&nbsp;&nbsp;Rand Omper Son</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="main">
+                        I've watched the film atleast 8 times and I cannot find a single flaw!
+                    </div>
+                    <div class="foot">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa  fa-star"></i> <span>&nbsp;&nbsp;Fayq Guy</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="main">
+                        I loved it but I'd like to see more cats.
+                    </div>
+                    <div class="foot">
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i> <span>&nbsp;&nbsp;&nbsp;Kit Tylover</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="center">
+                <div class="fonter" style="font-size: 60px">Off-Screen</div>
+                <img src="img/all.jpg" style="border-radius: 3%; width: 600px; margin: 20px">
+                <div class="fonter" style="margin:20px; font-size: 20px">
+                    <p>Apart from being excellent students and world-renowed film-makers, Gabi, Mai and Nav remain close friends. Their first ever movie, "?", received a very positive response from all over the globe and was even hailed by some as "The best meta film made till date". </p>
+                    <p>
+                        Currently, the trio are working very hard in other fields, and have taken a strong liking to the field of web design and development.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="center fonter">
+                <div style="font-size: 60px;">
+                    More About 30MFF
+                </div>
+                <div class="paragraph-about">
+                    <p class="slight-margin">The 30 minute film festival is a biannual film festival held at New York University Abu Dhabi. Leaders from around the globe who have opted to take Communications Lab engage in a highly demanding activity. Participants are given 30 move around the globe and shoot scenes, and an additional 30 minutes to bring them together to form a short film.
+                        It is indeed an incredible sight to watch amateur filmmakers create some of the world's best films. The films are watched by audiences from across the globe and are highly appreciated. </p>
+                    <p class="slight-margin">The participants are then tasked with creating a website for their short film, which also turn out to be award winning websites, appreciated for both their elegant design and meaningful content. </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--  Once again, necessary scripts are included to allow the scrolljacking and other js elements to work  -->
+    <!-- Major Credits to d4nyll (github) for smartscroll - the library I used for fullpage scrolling -->
+    <script src="js/smartscroll.min.js">
+    </script>
+    <script src="js/lethargy.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

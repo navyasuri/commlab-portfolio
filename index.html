@@ -3,12 +3,22 @@
     <head>
     <title>Nav's Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymoBus"></script>
 </head>
 
 <body>
 
+    <div class="color">
+        <div class="light">
+            <a id="lit">Light</a>
+        </div>
+        <div class="dark">
+            <a id="ded">Dark</a>
+        </div>
+    </div>
     <div class="section-wrapper">
+        <!--
         <div class="section">
 
             <div class="landing split">
@@ -27,6 +37,7 @@
                 <div class="clear"></div>
             </div>
         </div>
+-->
 
         <!--
     <div class="section2 full">
@@ -42,7 +53,7 @@
 -->
 
         <!--   Info section    -->
-        <div class="section info full">
+        <div class="section info full" data-hash="info">
             <div class="info-top">
                 hi !
             </div>
@@ -53,32 +64,92 @@
                     <img src="img/2.jpg">
                 </div>
                 <div class="info-content">
-                    i'm nav, a sophomore at new york university in abu dhabi. this is my portfolio for the class "communications lab". check it out!
+                    i'm nav, a sophomore from new york university in abu dhabi. check out some of the stuff i've done for "communcations lab".
+                    <br>
+                    you can reach me at <a href="mailto:navyasuri@nyu.edu">navyasuri@nyu.edu</a>
+                    <br>
+                    <br>
+
                 </div>
             </div>
-
+            <div class="centerer">
+                <a href="#tmff"><i class="fas fa-arrow-circle-down arrow-down"></i></a>
+            </div>
         </div>
-        <div class="section">
-            <div class="section2 split">
-                <div class="left">
-                    <div class="text">
-                        comm&nbsp;
-                    </div>
-                    <div class="clear"></div>
+
+        <div class="section split tmff" data-hash="tmff">
+            <div class="lefts">
+                <div class="text">
+                    30mff
                 </div>
-                <div class="right">
-                    <div class="text">
-                        &nbsp;lab
-                    </div>
-                    <div class="clear"></div>
+            </div>
+            <div class="rights">
+                <div class="text content">
+                    30 minute film festival. in our very first project, gabi, may and i worked to make a shoot a film in 30 minutes, and edit it in another 30. our film was then advertised on a webpage! check it out!
+                    <br>
+                    <br>
+                    <a href="hw/docs/30mff.html"><i class="fas fa-file-alt arrow"></i></a>&nbsp;&nbsp;
+                    <a href="hw/30mff/index.html"><i class="fas fa-arrow-circle-right arrow"></i></a>
                 </div>
-                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="section split comic" data-hash="comic">
+            <div class="lefts">
+                <div class="text content">
+                    in our second project, i worked with mai and luize to make our very own comic strip. we used adobe photoshop and illustrator to hand draw all the comics. like all commlab projects, it lives on a website. take a look!
+                    <br>
+                    <br>
+                    <a href="hw/comic/front-page.html"><i class="fas fa-arrow-circle-left arrow"></i></a>&nbsp;&nbsp;
+                    <a href="hw/docs/comic.html"><i class="fas fa-file-alt arrow"></i></a>
+                </div>
+            </div>
+            <div class="rights">
+                <div class="text">
+                    comic
+                </div>
+            </div>
+        </div>
+
+        <div class="section split audio" data-hash="audio">
+            <div class="lefts">
+                <div class="text">
+                    audio
+                </div>
+            </div>
+            <div class="rights">
+                <div class="text content">
+                    this project took us to to the magical world of sound. our task was to create an audio piece that told a story. elza and i recorded audio from around us and got a friend to voice act. we then found many sounds online and patched everything up to create this piece. listen to it!
+                    <br>
+                    <br>
+                    <a href="hw/docs/audio.html"><i class="fas fa-file-alt arrow"></i></a>&nbsp;&nbsp;
+                    <a href="hw/audio/index_3.html"><i class="fas fa-arrow-circle-right arrow"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section split video" data-hash="video">
+            <div class="lefts">
+                <div class="text content">
+                    the last group project brought josefina, aleksandra and myself together to create a 'how to' video. we learned how to use some professional filming and audio equipment. we edited the video and audio to create a polished piece that lives on this website. have a look!
+                    <br>
+                    <br>
+                    <a href="hw/video/indexHome.html"><i class="fas fa-arrow-circle-left arrow"></i></a>&nbsp;&nbsp;
+                    <a href="hw/docs/video.html"><i class="fas fa-file-alt arrow"></i></a>
+                </div>
+            </div>
+            <div class="rights">
+                <div class="text">
+                    video
+                </div>
             </div>
         </div>
     </div>
 
     <script src="js/lethargy.js"></script>
     <script src="js/smartscroll.min.js"></script>
+    <script src="js/EventEmitter.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

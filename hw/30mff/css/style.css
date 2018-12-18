@@ -1,0 +1,211 @@
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.main-heading {
+    font-size: 300px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.big-question{
+    perspective: 300px;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+    display: inline-block;
+}
+
+.big-question:hover{
+    transform: rotate(1440deg);   
+}
+
+.center {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section {
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px
+}
+
+.card {
+    float: left;
+    box-sizing: border-box;
+    width: 33.3%;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.sub-heading {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px
+}
+
+.card-wrapper {
+    margin-top: 80px;
+    position: relative;
+}
+
+.coinflip {
+    perspective: 1000px;
+    width: 250px;
+    position: relative;
+    margin: auto;
+}
+
+.coin {
+    perspective: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    display: inline-block;
+}
+
+.flip {
+    transition: all 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    transition: transform 0.6s;
+    backface-visibility: hidden;
+}
+
+.coin:hover .front {
+    transform: rotateY(180deg);
+}
+
+.coin:hover .back {
+    transform: rotateY(360deg);
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.coin-front {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: white;
+    color: black;
+}
+
+.question {
+    font-size: 150px;
+}
+
+.member {
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    color: black;
+}
+
+.fonter {
+    font-family: "Paytone One", sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.slight-margin {
+    margin: 5px;
+}
+
+.paragraph-about {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.details {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.review{
+   margin: 40px; 
+}
+
+.review head{
+    
+}
+
+.review main{
+    
+}
+
+.review foot{
+    
+}
+
+.main {
+    font-size: 25px;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+
+.foot {    
+    font-style:italic;
+    font-weight: 700;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.side-left {
+    float: left;
+    width: 30%;
+}
+
+.side-left img{
+    padding: 10%;
+    width: 80%;
+    border-radius: 50%
+}
+
+.side-right {
+    float: left;
+    width: 60%;
+    display: block;
+}

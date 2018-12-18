@@ -1,8 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:900');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+:root{
+    
+    --plat: #ebebeb;
+    --platDup: #ebebeb;
+    --lava: #058ED9;
+    --yellow: #F4E349;
+    --yellow1:#EFC94C;
+    --blue1: #db001b;
+    --blue2: #575bd3;
+/*    --dark: #111E26;*/
+    --dark: #313131;
+    
+    --cBlack: #17252A;
+    --cBrue: #2B7A78;
+    --cBlue: #3AAFA9;
+    --cGrey: #DEF2F1;
+    --cWhite: #FEFFFF;
+    
+    --grey: #DDDDDD;
+}
+
 html, body {
     margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.content{
+    margin: 5%;
 }
 
 .left{
@@ -55,13 +85,21 @@ html, body {
 }
 
 .landing .right{
-    background-color: #00b0c7;
-    color: white;
+/*
+    background-color: var(--cBrue);
+    color: var(--cWhite);
+*/
+    background-color: $FAFAFA;
+    color: #BB0A21;
 }
 
 .landing .left{
-    background-color: white;
-    color: #00b0c7;
+/*
+    background-color: var(--cWhite);
+    color: var(--cBrue);
+*/
+    background-color: #BB0A21;
+    color: #FAFAFA;
 }
 
 .section2{
@@ -141,7 +179,7 @@ html, body {
 
 .info-top {
     font-family: 'Catamaran';
-    font-size: 60pt;
+    font-size: 80pt;
     text-align: center;
     
     min-width: 100%;
@@ -151,7 +189,8 @@ html, body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    background-color: azure
+    background-color: var(--plat);
+    color: var(--dark);
 }
 
 .info-hr {
@@ -180,4 +219,143 @@ html, body {
     margin-right: 5%;
     font-family: 'PT Sans';
     font-size: 30pt;
+    font-weight: 800;
+}
+
+.lefts{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    min-height: 100vh;
+    float: left;
+    justify-content: center;
+}
+
+.rights{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    min-height: 100vh;
+    float: left;
+    justify-content: center;
+}
+
+.tmff .lefts{
+    font-size: 120pt;
+    font-family: "Catamaran";
+    background-color: var(--plat);
+    color: var(--blue1);
+    
+}
+
+.lefts .text{
+    text-align: center;
+}
+.rights .text{
+    text-align: center;
+}
+
+.tmff .rights{
+    font-family: 'PT Sans';
+    font-weight: 900;
+    font-size: 25pt;
+    background-color: var(--blue1);
+    color: var(--plat);
+}
+
+.comic .rights{
+    font-size: 120pt;
+    font-family: "Catamaran";
+    background-color: var(--plat);
+    color: var(--lava);
+}
+
+.comic .lefts{
+    font-family: 'PT Sans';
+    font-weight: 900;
+    font-size: 25pt;
+    background-color: var(--lava);
+    color: var(--plat);
+}
+
+.audio .lefts{
+    font-size: 120pt;
+    font-family: "Catamaran";
+    background-color: var(--plat);
+    color: var(--yellow1);
+}
+
+.audio .rights{
+    font-family: 'PT Sans';
+    font-weight: 900;
+    font-size: 25pt;
+    background-color: var(--yellow1);
+    color: var(--plat);
+}
+
+.video .rights{
+    font-size: 120pt;
+    font-family: "Catamaran";
+    background-color: var(--plat);
+    color: var(--blue2);
+}
+
+.video .lefts{
+    font-family: 'PT Sans';
+    font-weight: 900;
+    font-size: 25pt;
+    background-color: var(--blue2);
+    color: var(--plat);
+}
+
+.arrow {
+    color: gainsboro;
+    font-size: 80pt;
+}
+
+.arrow:hover{
+    color: black;
+}
+
+.arrow-down {
+    color: gainsboro;
+    font-size: 80pt;
+}
+
+.arrow-down:hover{
+    color: black;
+}
+
+.centerer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    min-width: 98%;
+    position: absolute;
+    z-index: 9;
+    margin: 1%; 
+    font-family: "Catamaran"; 
+    font-size: 20pt;
+}
+
+.color a{
+    cursor: pointer;
+}
+
+.light {
+    float: left;
+}
+
+.dark {
+    float: right;
+}
+
+#lit {
+    color: #ebebeb;
+}
+
+#ded {
+    color: #313131;
 }

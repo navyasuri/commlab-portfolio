@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-repeat: no-repeat;
+}
+
+.audio{
+    background: #A9FFAE;
+background: -webkit-linear-gradient(top left, #A9FFAE, #86D8FF);
+background: -moz-linear-gradient(top left, #A9FFAE, #86D8FF);
+background: linear-gradient(top left, #A9FFAE, #86D8FF);
+}
+
+.video{
+    background: #b9f5ff;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #b9f5ff); 
+    background: linear-gradient(to right, #FFFFFF, #b9f5ff);
+}
+
+.tmff{
+    background: #FFF1D3;
+background: -webkit-linear-gradient(top left, #FFF1D3, #FFC2C2);
+background: -moz-linear-gradient(top left, #FFF1D3, #FFC2C2);
+background: linear-gradient(top left, #FFF1D3, #FFC2C2);
+}
+
+.comic{
+    background: #C9ECFF;
+background: -webkit-linear-gradient(top left, #C9ECFF, #B9FFA9);
+background: -moz-linear-gradient(top left, #C9ECFF, #B9FFA9);
+background: linear-gradient(top left, #C9ECFF, #B9FFA9);
+}
+
+.content{
+    font-size: 1.4em;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 3.8em;
+}
